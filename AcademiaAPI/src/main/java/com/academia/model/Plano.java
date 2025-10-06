@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "planos") // opcional, define o nome da tabela
+@Table(name = "planos") 
 public class Plano {
 
     @Id
@@ -39,3 +39,4 @@ public class Plano {
     public Integer getDuracaoEmDias() { return duracaoEmDias; }
     public void setDuracaoEmDias(Integer duracaoEmDias) { this.duracaoEmDias = duracaoEmDias; }
 }
+
