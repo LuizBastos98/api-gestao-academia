@@ -1,4 +1,4 @@
-// src/main/java/com/academia/dto/AlunoRequestDTO.java
+
 package com.academia.dto;
 
 import jakarta.validation.constraints.Email;
@@ -24,3 +24,4 @@ public class AlunoRequestDTO {
     public Long getPlanoId() { return planoId; }
     public void setPlanoId(Long planoId) { this.planoId = planoId; }
 }
+
