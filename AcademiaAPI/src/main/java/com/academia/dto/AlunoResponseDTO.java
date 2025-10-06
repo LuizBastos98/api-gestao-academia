@@ -1,4 +1,4 @@
-// src/main/java/com/academia/dto/AlunoResponseDTO.java
+
 package com.academia.dto;
 
 import com.academia.model.StatusAluno;
@@ -22,3 +22,4 @@ public class AlunoResponseDTO {
     public PlanoResumoDTO getPlano() { return plano; }
     public void setPlano(PlanoResumoDTO plano) { this.plano = plano; }
 }
+
