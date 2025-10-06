@@ -1,4 +1,3 @@
-// src/main/java/com/academia/dto/PlanoResumoDTO.java
 package com.academia.dto;
 
 public class PlanoResumoDTO {
@@ -10,3 +9,4 @@ public class PlanoResumoDTO {
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
 }
+
