@@ -1,4 +1,4 @@
-// src/main/java/com/academia/dto/PlanoRequestDTO.java
+
 package com.academia.dto;
 
 import jakarta.validation.constraints.NotBlank;
@@ -23,3 +23,4 @@ public class PlanoRequestDTO {
     public Integer getDuracaoEmDias() { return duracaoEmDias; }
     public void setDuracaoEmDias(Integer duracaoEmDias) { this.duracaoEmDias = duracaoEmDias; }
 }
+
