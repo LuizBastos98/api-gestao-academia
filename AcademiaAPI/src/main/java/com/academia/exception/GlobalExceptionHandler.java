@@ -1,4 +1,3 @@
-// src/main/java/com/academia/exception/GlobalExceptionHandler.java
 package com.academia.exception;
 
 import org.springframework.http.ResponseEntity;
@@ -34,3 +33,4 @@ public class GlobalExceptionHandler {
         ));
     }
 }
+
