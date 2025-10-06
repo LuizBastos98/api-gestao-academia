@@ -1,4 +1,4 @@
-// src/main/java/com/academia/config/OpenApiConfig.java
+
 package com.academia.config;
 
 import io.swagger.v3.oas.models.info.Info;
@@ -13,3 +13,4 @@ public class OpenApiConfig {
         return new OpenAPI().info(new Info().title("API Gestão de Academia").version("v1").description("API para prova - gestão de alunos, planos, treinos e pagamentos"));
     }
 }
+
