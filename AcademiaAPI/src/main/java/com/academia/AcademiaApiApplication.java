@@ -1,4 +1,4 @@
-// src/main/java/com/academia/AcademiaApiApplication.java
+
 package com.academia;
 
 import org.springframework.boot.SpringApplication;
@@ -10,3 +10,4 @@ public class AcademiaApiApplication {
         SpringApplication.run(AcademiaApiApplication.class, args);
     }
 }
+
