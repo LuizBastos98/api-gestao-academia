@@ -1,4 +1,4 @@
-// src/main/java/com/academia/dto/PagamentoRequestDTO.java
+
 package com.academia.dto;
 
 import jakarta.validation.constraints.NotNull;
@@ -11,7 +11,7 @@ public class PagamentoRequestDTO {
     @NotNull
     private Long alunoId;
 
-    // opcional status se desejar
+   
     private String status;
 
     // getters/setters
@@ -22,3 +22,4 @@ public class PagamentoRequestDTO {
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
 }
+
