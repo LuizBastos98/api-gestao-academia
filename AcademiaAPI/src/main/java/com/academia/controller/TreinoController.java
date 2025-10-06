@@ -1,4 +1,4 @@
-// src/main/java/com/academia/controller/TreinoController.java
+
 package com.academia.controller;
 
 import com.academia.dto.*;
@@ -44,3 +44,4 @@ public class TreinoController {
         return ResponseEntity.noContent().build();
     }
 }
+
