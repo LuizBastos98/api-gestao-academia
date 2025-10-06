@@ -24,9 +24,10 @@ public class Treino {
     @Enumerated(EnumType.STRING)
     private NivelTreino nivel;
 
-    // ===== E QUE ESTE CAMPO CORRESPONDA AO 'mappedBy' =====
+   
     @ManyToMany(mappedBy = "treinos")
-    @JsonIgnore // Para evitar loops ao retornar JSON
+    @JsonIgnore 
     private List<Aluno> alunos = new ArrayList<>();
-    // ====================================================
+    
+
 }
