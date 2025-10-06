@@ -31,4 +31,4 @@ bash git clone https://github.com/SeuUsuario/SeuRepositorio.git
 bash cd nome-da-pasta-do-projeto 
 4.  **Execute o projeto com o Maven:**
 bash mvn spring-boot:run 
-5.  **Acesse a documentação:** Após a aplicação iniciar, acesse a documentação interativa e os endpoints em [http://localhost:8088/swagger-ui.html](http://localhost:8088/swagger-ui.html
+5.  **Acesse a documentação:** Após a aplicação iniciar, acesse a documentação interativa e os endpoints em [[http://localhost:8088/swagger-ui.html](http://localhost:8088/swagger-ui.html](http://localhost:8080/swagger-ui/index.html)
