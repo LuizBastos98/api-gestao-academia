@@ -1,4 +1,4 @@
-// src/main/java/com/academia/dto/PlanoResponseDTO.java
+
 package com.academia.dto;
 
 import java.math.BigDecimal;
@@ -18,3 +18,4 @@ public class PlanoResponseDTO {
     public Integer getDuracaoEmDias() { return duracaoEmDias; }
     public void setDuracaoEmDias(Integer duracaoEmDias) { this.duracaoEmDias = duracaoEmDias; }
 }
+
