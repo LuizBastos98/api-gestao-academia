@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Entity // <-- ESTA LINHA ESTAVA FALTANDO
+@Entity
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Pagamento {
@@ -28,4 +28,5 @@ public class Pagamento {
     @JoinColumn(name = "aluno_id")
     @JsonIgnore
     private Aluno aluno;
+
 }
