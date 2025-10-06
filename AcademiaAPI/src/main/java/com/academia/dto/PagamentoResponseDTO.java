@@ -1,4 +1,4 @@
-// src/main/java/com/academia/dto/PagamentoResponseDTO.java
+
 package com.academia.dto;
 
 import java.math.BigDecimal;
@@ -23,3 +23,4 @@ public class PagamentoResponseDTO {
     public Long getAlunoId() { return alunoId; }
     public void setAlunoId(Long alunoId) { this.alunoId = alunoId; }
 }
+
