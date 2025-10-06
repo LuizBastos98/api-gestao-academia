@@ -13,7 +13,7 @@ public class AlunoRequestDTO {
     @Email
     private String email;
 
-    // opcionalmente receber id do plano ao criar/atualizar
+    
     private Long planoId;
 
     // getters/setters
@@ -24,4 +24,5 @@ public class AlunoRequestDTO {
     public Long getPlanoId() { return planoId; }
     public void setPlanoId(Long planoId) { this.planoId = planoId; }
 }
+
 
